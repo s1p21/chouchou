@@ -1,0 +1,77 @@
+._wPaint_menu{padding:1px; background:#EFEFEF; border:solid #000000 2px; margin-top:30px;border-radius:5px; box-shadow:3px 3px 5px #555555; z-index:100; margin-top:-100px; position:absolute;}
+._wPaint_options{float:left; padding:2px;}
+/*** icons ***/
+.textcontrol{ margin-top:-50px;}
+._wPaint_icon,
+._wPaint_dropDown,
+._wPaint_colorPicker{
+	position:relative; float:left; height:62px; width:62px; margin:0 2px; line-height:62px;
+	background-position:center center; background-repeat:no-repeat; cursor:pointer;
+	border-style:solid; border-width:1px; padding:3px; border-radius:5px;
+}
+._wPaint_dropDown{ font-size:20px;}
+._wPaint_lineWidth, ._wPaint_fontSize{padding:3px 0; width:62px;}
+._wPaint_lineWidth, ._wPaint_fontSize, ._wPaint_fontFamily{overflow:hidden;}
+.fontFamily{ height:62px; width:62px;}
+._wPaint_dropDown select{
+	background-color:#EFEFEF; border:none; cursor:pointer;
+	text-align:center; width:82px; margin-left:0px; height:62px; font-size:18px;
+	padding-top:4px;
+	background-image:url(../images/chouchouhua/line_cuxi_.png);
+}
+
+/*._wPaint_dropDown_cover{position:absolute; right:0px; top:0px; height:62px; width:62px; background-color:#EFEFEF;}*/
+
+._wPaint_icon,
+._wPaint_dropDown,
+.font{ font-size:36px; margin-left:2px;}
+._wPaint_colorPicker{border-color:#999999}
+
+._wPaint_icon:hover,
+._wPaint_icon.active{border-color:#F88017; background-color:#E5E5E5;}
+
+/*** handle ***/
+._wPaint_handle{float:left; width:10px; height:66px; background: #AFAFAF; border-radius:3px 0 0 3px; cursor:pointer;}
+
+/*** text input ***/
+._wPaint_textInput{position:absolute; border:dotted #0000FF 1px; background:none; margin:0px; padding:0px; outline-width:0; word-wrap:break-word; overflow:hidden;}
+/*._wPaint_textHolder{position:absolute; border:dotted #0000FF 1px;}*/
+
+/*** color picker overwrites ***/
+._wPaint_colorPicker{padding:0px; width:62px; height:68px;}
+.strokeColor{  background-image:url(../images/chouchouhua/line_color.png);}
+.fillColor{ background-image:url(../images/chouchouhua/word_color.png);}
+._wColorPicker_buttonBorder{border:none;}
+._wColorPicker_buttonColor{width:60px !important; height:44px !important;}
+._wPaint_colorPicker{float:left;}
+
+/*** vertical overwrites ***/
+._wPaint_menu_vertical ._wPaint_icon,
+._wPaint_menu_vertical ._wPaint_dropDown,
+._wPaint_menu_vertical ._wPaint_colorPicker{
+	margin:2px 0;
+}
+
+._wPaint_menu_vertical ._wPaint_handle{
+	width:62px; height:62px; border-radius:3px 3px 0 0;
+}
+
+/***********************************************************
+ * Images
+ ***********************************************************/
+._wPaint_handle{background-image:url(../images/chouchouhua/menu_handle.png); background-repeat:repeat-y;}
+._wPaint_undo{background-image:url(../images/chouchouhua/unback.png);}
+._wPaint_undo.uactive{background-image:url(../images/chouchouhua/back.png);}
+._wPaint_redo{background-image:url(../images/chouchouhua/ungoforward.png);}
+._wPaint_redo.uactive{background-image:url(../images/chouchouhua/goforward.png);}
+._wPaint_clear{background-image:url(../images/chouchouhua/clean.png);}
+._wPaint_rectangle{background-image:url(../images/chouchouhua/jvxing.png);}
+._wPaint_ellipse{background-image:url(../images/chouchouhua/circl.png);}
+._wPaint_line{background-image:url(../images/chouchouhua/str_line.png);}
+._wPaint_pencil{background-image:url(../images/chouchouhua/pen.png);}
+._wPaint_text{background-image:url(../images/chouchouhua/add_word.png);}
+._wPaint_eraser{background-image:url(../images/chouchouhua/xiangpica.png);}
+._wPaint_bold{background-image:url(../images/chouchouhua/bol.png);}
+._wPaint_italic{background-image:url(../images/chouchouhua/ita.png);}
+._wPaint_underline{background-image:url(../images/chouchouhua/under.png)}
+._wPaint_addImage{ background-image:url(../images/chouchouhua/add_pic.png);}

@@ -1,0 +1,404 @@
+[ 2015-03-13T15:43:28+08:00 ] 127.0.0.1 /chouchouhua/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001351s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.019639s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.019730s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.061881s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.015162s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.003593s ]
+
+[ 2015-03-13T15:43:28+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000090s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000065s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000113s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002053s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.001745s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.001993s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000074s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000164s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.055381s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055446s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000715s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019344s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019419s ]
+
+[ 2015-03-13T15:46:28+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000260s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000342s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002684s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002559s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002430s ]
+SQL: SELECT * FROM `chouchouhua_user` WHERE ( `username` = 's1p21' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.047203s ]
+
+[ 2015-03-13T15:46:31+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000214s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002732s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002809s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002889s ]
+SQL: SELECT * FROM `chouchouhua_user` WHERE ( `username` = 's1p21' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000365s ]
+
+[ 2015-03-13T15:46:31+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000194s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002581s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002737s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002508s ]
+SQL: SELECT * FROM `chouchouhua_user` WHERE ( `username` = 's1p21' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000300s ]
+
+[ 2015-03-13T15:46:40+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000247s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000149s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002089s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.001911s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.001737s ]
+SQL: SELECT * FROM `chouchouhua_user` WHERE ( `username` = 's1p21' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000285s ]
+
+[ 2015-03-13T15:46:40+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000268s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000218s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002180s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002043s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.001975s ]
+SQL: SELECT * FROM `chouchouhua_user` WHERE ( `username` = 's1p21' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000314s ]
+
+[ 2015-03-13T15:46:40+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000251s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000201s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000310s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.003409s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002877s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002937s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000181s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000257s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.029637s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.029750s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000160s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000131s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000178s ]
+
+[ 2015-03-13T15:46:40+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000198s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.005452s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002255s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002844s ]
+SQL: SELECT * FROM `chouchouhua_user` WHERE ( `username` = 's1p21' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000339s ]
+
+[ 2015-03-13T15:46:40+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000153s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000219s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002959s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002466s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.003034s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000145s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000226s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017503s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017581s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000155s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000225s ]
+
+[ 2015-03-13T15:46:40+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000182s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000264s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002594s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.001890s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002456s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000182s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000269s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016965s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017024s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000120s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000169s ]
+
+[ 2015-03-13T15:46:40+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000142s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000205s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002580s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002510s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002183s ]
+SQL: SELECT * FROM `chouchouhua_user` WHERE ( `username` = 's1p21' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000298s ]
+
+[ 2015-03-13T15:46:44+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000025s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000410s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000522s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002650s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002229s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.001936s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000138s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000239s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017279s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017352s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000145s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000135s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000186s ]
+
+[ 2015-03-13T15:46:44+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000210s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000289s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002382s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002001s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.001850s ]
+SQL: SELECT * FROM `chouchouhua_user` WHERE ( `username` = 's1p21' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000270s ]
+
+[ 2015-03-13T15:46:44+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000082s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000133s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002354s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.004447s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002449s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000253s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.016125s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.016188s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000121s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000168s ]
+
+[ 2015-03-13T15:46:44+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000019s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000209s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002292s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002597s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002130s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000136s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000213s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017158s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017227s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000114s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000161s ]
+
+[ 2015-03-13T15:46:44+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000023s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000152s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000229s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002288s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.002382s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002099s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000129s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000186s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005849s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005910s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000069s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000068s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000112s ]
+
+[ 2015-03-13T15:46:44+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000028s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000165s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000166s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002119s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.001881s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002135s ]
+SQL: SELECT * FROM `chouchouhua_user` WHERE ( `username` = 's1p21' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000315s ]
+
+[ 2015-03-13T15:46:44+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/checkLogin
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000144s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000093s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000160s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002331s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.004289s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.002530s ]
+SQL: SELECT * FROM `chouchouhua_user` WHERE ( `username` = 's1p21' ) AND ( `password` = '123' ) LIMIT 1   [ RunTime:0.000202s ]
+
+[ 2015-03-13T15:46:57+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000024s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000154s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.001978s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.001764s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.001758s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000133s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000201s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006214s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006282s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000085s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000084s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000131s ]
+
+[ 2015-03-13T15:46:57+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000145s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000124s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000215s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.001900s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.001714s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.001626s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000147s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000224s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.017116s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.017176s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000164s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000155s ]
+
+[ 2015-03-13T15:46:57+08:00 ] 127.0.0.1 /chouchouhua/index.php/Home/Index/index
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000116s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000169s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.002053s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.001866s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.001697s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000137s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000207s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005699s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005757s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000072s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000482s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000535s ]
+

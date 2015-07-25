@@ -1,0 +1,231 @@
+/* css document */
+/**
+ * css3 圆角边框
+ */
+/**
+ * 页面通用半透明背景
+ */
+/**
+ * 容器垂直居中实现
+ */
+.vertical-center {
+  display: box;
+  box-align: center;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  display: -moz-box;
+  -moz-box-align: center;
+  display: -o-box;
+  -o-box-align: center;
+}
+/**
+ * 水平居中容器实现
+ */
+.align-center {
+  display: box;
+  box-pack: center;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  display: -moz-box;
+  -moz-box-pack: center;
+}
+/**
+ * css3 css transition 动画实现
+ */
+/**
+ * 垂直方向，css3 线性背景渐变实现
+ */
+/**
+ * 阴影
+ ****************注意如果对position没有特殊需求，传入 /**\/，
+ ****************
+ */
+html,
+body {
+  height: 100%;
+  background: url(../images/bg.jpg) no-repeat;
+  background-size: cover;
+  min-width: 1280px;
+}
+header {
+  position: fixed;
+  width: 100%;
+  display: block;
+}
+header nav {
+  margin-right: 65px;
+}
+header nav ul li {
+  display: inline-block;
+  height: 30px;
+  line-height: 30px;
+  padding: 0 20px;
+  font-size: 15px;
+  margin-right: 20px;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  background: rgba(0, 0, 0, 0.5);
+}
+header nav ul li a {
+  color: #FFF;
+  display: block;
+}
+header nav ul li a:hover {
+  text-decoration: none;
+}
+header #report img {
+  vertical-align: middle;
+}
+aside {
+  width: 100px;
+  height: 100%;
+  text-align: center;
+  position: absolute;
+  display: box;
+  box-align: center;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  display: -moz-box;
+  -moz-box-align: center;
+  display: -o-box;
+  -o-box-align: center;
+}
+aside ul {
+  width: 100px;
+  height: 400px;
+  padding: 10px 0;
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+aside ul li {
+  width: 60px;
+  height: 60px;
+  margin: 15px auto;
+}
+aside ul li a {
+  display: block;
+  width: 60px;
+  height: 60px;
+  background: url(../images/left.png) no-repeat -18px -11px;
+}
+aside ul li a.house {
+  background-position: -15px -9px;
+}
+aside ul li a.company {
+  background-position: -17px -94px;
+}
+aside ul li a.avator {
+  background-position: -15px -179px;
+}
+aside ul li a.write {
+  background-position: -15px -257px;
+}
+aside ul li a.message {
+  background-position: -17px -331px;
+}
+.btns {
+  display: inline-block;
+  line-height: 28px!important;
+  height: 28px;
+  padding: 0 10px;
+  background: blue;
+  font-size: 15px;
+  color: #000;
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+}
+.btns:hover {
+  text-decoration: none;
+}
+.btns.btns-light {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#bbd5e4), to(#81bad5));
+}
+.btns.btns-dark {
+  background: -webkit-gradient(linear, 0 0, 0 100%, from(#cbdae5), to(#5e6f77));
+}
+.btns.btns-s {
+  padding: 0 30px;
+  font-size: 13px;
+  height: 24px;
+  line-height: 24px;
+}
+#report {
+  line-height: 43px;
+}
+#report img {
+  cursor: pointer;
+}
+#score {
+  font-size: 20px;
+  position: absolute;
+  top: 50px;
+  right: 20px;
+  color: #f00;
+}
+#report-detail {
+  position: absolute;
+  top: 43px;
+  right: 2px;
+  width: 128px;
+  height: 71px;
+  background: rgba(0, 0, 0, 0.5);
+  display: none;
+}
+#report-detail ul li {
+  width: 22px;
+  height: 22px;
+  margin: 8px 2px 0 15px;
+  float: left;
+  cursor: pointer;
+}
+#nm_org,
+#x_org,
+#lxhwahaha_org,
+#sada_org,
+#angrya_org,
+#sweata_org {
+  background: url(../images/mood-icon.png) no-repeat;
+}
+#nm_org {
+  background-position: 0px 0px;
+}
+#x_org {
+  background-position: -22px 0px;
+}
+#lxhwahaha_org {
+  background-position: -44px 0px;
+}
+#sada_org {
+  background-position: 0 -22px;
+}
+#angrya_org {
+  background-position: -22px -22px;
+}
+#sweata_org {
+  background-position: -44px -22px;
+}
+.vertical-center-helper {
+  width: 100%;
+  height: 100%;
+  display: box;
+  box-align: center;
+  display: -webkit-box;
+  -webkit-box-align: center;
+  display: -moz-box;
+  -moz-box-align: center;
+  display: -o-box;
+  -o-box-align: center;
+}
+.align-center-helper {
+  width: 100%;
+  height: 100%;
+  display: box;
+  box-pack: center;
+  display: -webkit-box;
+  -webkit-box-pack: center;
+  display: -moz-box;
+  -moz-box-pack: center;
+}

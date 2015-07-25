@@ -1,0 +1,291 @@
+@charset "utf-8";
+/* CSS Document */
+html {
+  height: 100%;
+   background-size: cover;
+   background-image:url(../images/bg/bg1.jpg);
+   background-repeat:no-repeat;
+}
+img
+{
+	cursor:pointer;}
+a
+{
+	text-decoration:none;
+	color:#F6F5F1;
+	cursor:pointer;
+}
+
+
+.corner
+{
+	border: thin 5px #000;
+	border-radius:5px;
+	cursor:pointer;
+}
+
+#main
+{
+	width:1300px;
+	height:600px;
+	margin:0px 0px 0px 0px;
+	margin-top:0px;
+	padding:0px 0px 0px 0px;
+   position: absolute;
+   top: 0;
+   left: 0;
+    
+}
+#hua
+{
+	width:300px;
+	height:100px;
+	font-family:宋体;
+	font-size:60px;
+	color:#F90;
+	float:left;
+	margin-top:0px;
+	margin-left:30px;
+}
+#bottom
+{
+	width:900px;
+	height:100px;
+	float:left;
+	margin-top:0px;
+	margin-left:0px;
+}
+#hot_itom
+{
+	width:50px;
+	height:50px;
+	margin-top:10px;
+	margin-left:200px;
+	float:left;
+}
+#picture
+{
+	width:100px;
+	height:20px;
+	float:left;
+	margin-top:20px;
+	margin-left:0px;
+	font-size:14px;
+	background-color:#000;
+	font-family:宋体;
+	text-align:center;
+}
+#kuang
+{
+	width:55px;
+	height:40px;
+	float:left;
+	margin-top:10px;
+	margin-left:120px;
+	text-align:center;
+}
+#look
+{
+	width:100px;
+	height:20px;
+	float:left;
+	margin-top:20px;
+	margin-left:5px;
+	font-size:14px;
+	background-color:#333;
+	font-family:宋体;
+	text-align:center;
+}
+#left
+{
+	width:250px;
+	height:520px;
+	margin-left:0px;
+	float:left;
+}
+.home
+{
+	width:85px;
+	height:75px;
+	float:left;
+	margin-top:20px;
+	margin-left:90px;
+}
+.note
+{
+	width:100px;
+	height:20px;
+	float:left;
+	margin-top:5px;
+	margin-left:80px;
+	font-size:14px;
+	background-color:#000;
+	font-family:宋体;
+	text-align:center;
+}
+#right
+{
+	width:1003px;
+	height:515px;
+	background-image:url(../images/chouchouhua/mukuang.jpg);
+	float:left;
+	margin-left:0px;
+	margin-top:-40px;
+		
+}
+#text_content
+{   font-size:12px;}
+#photoshow
+{
+	position:absolute;
+	/*display:none;*/}
+#introduce
+{
+	width:1003px;
+	height:28px;
+	float:left;
+	font-family:宋体;
+	font-size:18px;
+	text-align:center;
+
+}
+#canvs_page
+{
+	position:absolute;
+	width:300px;
+	height:20px;
+	cursor:pointer;
+	text-align:center;
+	margin-top:30px;
+	margin-left:360px;
+
+}
+.page
+{
+	background-color:#FFA275;
+	float:left;
+	margin-top:10px;
+	margin-left:30px;
+	font-family:"宋体";
+	height:20px;
+	width:32px;
+	
+	
+}
+#imgshow
+{
+	width:950px;
+	height:515px;
+}
+.jiazi
+{
+	width:800px;
+	height:30px;
+	position:absolute;
+	margin-left:80px;
+	
+	z-index:100px;
+}
+.hr
+{
+	 position:absolute;
+	 margin-left:84px;
+	  border:solid;
+	 width:855px; color:#666563;}
+.tu
+{
+	width:900px;
+	height:120px;
+	float:left;
+	margin-left:50px;
+	position:absolute;
+	}
+.photo
+{
+	width:132px;
+	height:100px;
+	float:left;
+	margin-top:-5px;
+	margin-left:30px;
+	border:solid #FFF;
+	border-width:8px;
+	cursor:pointer;
+}
+.big_photo
+{
+	 border:solid #FFF;
+	 border-width:10px;
+	   width:520px;
+	   height:360px;
+	   border-radius:4px;
+	   float:left;
+	  margin-top:-5px;
+	  margin-left:100px;
+	
+	 }
+.big_photo_comment
+{ position:absolute;
+ margin-left:113px; margin-top:325px;}	 
+textarea
+{ height:25px; width:470px;
+   border:solid #ccc 6px; 
+  background-color:#CCC; 
+  font-size:12px;
+  border-radius:6px;
+
+ }	 
+.show_photo_comment	 
+{
+	position:absolute;
+	height:370px;
+	width:300px;
+	background-color:#FBFBFB;
+	margin-left:660px;
+	}
+.showcanvas
+{
+	height:100px;
+	 width:132px;
+    border-color:#FFF;
+ 
+}
+#bgDiv
+{
+	 display: none;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right:0px;
+	background-size:cover;
+    background-color: #000;
+    /*filter:progid:DXImageTransform.Microsoft.Alpha(style=3,opacity=25,finishOpacity=75)*/
+	filter:alpha(opacity=50);
+	       -moz-opacity:.5;   
+            opacity:0.5;  
+    }
+
+ #draw{
+ 	width:1060px; 
+ 	height:500px; 
+ 	background-color:#C2A681; 
+ 	margin-left:160px; 
+ 	margin-top:100px; 
+ 	position:absolute; 
+ 	z-index:1000; 
+ 	display: none;
+ }   
+
+.fileInput{width:203;height:200px;overflow:hidden;position:relative; margin-top:-340px; margin-left:300px;background-image:url(../images/chouchouhua/add_picture.png); background-repeat:no-repeat;}
+.upfile{position:absolute;top:-100px; display:none;}
+.upFileBtn{width:203px;height:168px;opacity:0;filter:alpha(opacity=0);cursor:pointer;}
+.draw_btn{height:41px; width:41px; float:right; margin-right:10px;}
+.comment_pg
+{
+	width:300px;
+	height:20px;
+	margin-left:650px;
+	margin-top:330px;
+	position:absolute;
+	
+
+}
