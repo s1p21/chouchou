@@ -1,0 +1,25 @@
+[ 2015-03-23T15:15:00+08:00 ] 172.31.28.21 /chouchouhua/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001021s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.020276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.020363s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_user` [ RunTime:0.036500s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_pic` [ RunTime:0.003995s ]
+SQL: SHOW COLUMNS FROM `chouchouhua_piccomment` [ RunTime:0.003964s ]
+NOTIC: [2] Missing argument 1 for Think\Controller::show(), called in G:\development\php\chouchouhua\Application\Home\Controller\IndexController.class.php on line 26 and defined G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 68 行.
+NOTIC: [8] Undefined variable: content G:\development\php\chouchouhua\ThinkPHP\Library\Think\Controller.class.php 第 69 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000130s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000204s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.099565s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.099657s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.011693s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.011760s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.015327s ]
+INFO: [ app_end ] --END-- [ RunTime:0.015445s ]
+
