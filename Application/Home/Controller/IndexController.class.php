@@ -49,10 +49,24 @@ class IndexController extends Controller {
         
     }
      public function register(){
-        $registerForm=I('post.registerForm');
-        $this->_User->create($registerForm);
-        $this->_User->add();
-        $this->ajaxReturn($registerForm,'json');
+        // $registerForm=I('post.registerForm');
+           $registerForm['username']=I('post.username');
+           $registerForm['email']=I('post.email');
+           $registerForm['password']=md5(I('post.password'));
+           if (I('post.password')==I('post.retype-password')){
+                $this->_User->create($registerForm);
+                $result=$this->_User->add();
+                if ($result) {
+                    setSession($result,$registerForm['username']);
+                }
+                else{
+
+                }
+           };
+          
+            echo I('post.username');
+
+
     }
     //设置session；
      public function setSession($uid,$name){
@@ -76,7 +90,6 @@ class IndexController extends Controller {
             // $s=gzcompress($map['pic1']);
             // $s=gzdeflate($map['pic1']);
             $this->ajaxReturn($result,'json');
-      
      
     }
 }

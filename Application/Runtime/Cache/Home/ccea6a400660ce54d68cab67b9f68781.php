@@ -4,8 +4,8 @@
     <!--添加资源文件  -->
  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <title>buctChat</title>
- <link rel="stylesheet" href="/chouchouhua/Public/static/css/reset.css" type="text/css" />
- <link rel="stylesheet" href="/chouchouhua/Public/static/css/login.css" type="text/css" />
+ <link rel="stylesheet" href="/chouchou/Public/static/css/reset.css" type="text/css" />
+ <link rel="stylesheet" href="/chouchou/Public/static/css/login.css" type="text/css" />
  <!--[if lt IE 9]> 
 <script src="http://ie7-js.googlecode.com/svn/version/2.1(beta4)/IE9.js"></script> 
 <![endif]--> 
@@ -16,9 +16,9 @@
     <div class="login-container">
         <div id="login-inner" class="login-inner clearfix">
             <div class="login-box register" id="registerForm">
-              <div class="site-logo"><img src="/chouchouhua/Public/images/chouchouhua/logo.png"></div> 
+              <div class="site-logo"><img src="/chouchou/Public/images/chouchouhua/logo.png"></div> 
                 <p class="login-tip-line">欢迎注册buctchat</p>
-                <form action="###" method="post" onsubmit="return checkRegisterForm(); ">
+                <form action="<?php echo U('Index/register');?>" method="post" onsubmit="return checkRegisterForm(); ">
                      <p class="form-item">
                         <span>用户名</span>
                         <input type="text" name="username" class="username" id="register_uname" />
@@ -66,7 +66,7 @@
 <script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
             </div>
             <div class="login-box login">
-                <div class="site-logo"><img src="/chouchouhua/Public/images/chouchouhua/logo.png"></div>
+                <div class="site-logo"><img src="/chouchou/Public/images/chouchouhua/logo.png"></div>
                 <p class="login-tip-line">欢迎登录buctchat</p><br>
                     <p class="form-item">
                         <span>帐号</span>
@@ -103,7 +103,7 @@
                 </p> -->
             </div>
             <div class="login-box modify">
-                <div class="site-logo"><img src="/chouchouhua/Public/images/chouchouhua/logo.png">
+                <div class="site-logo"><img src="/chouchou/Public/images/chouchouhua/logo.png">
                 </div>
                 <p class="modify-tip-line">修改密码</p>
                 <form action="###" method="post">
@@ -142,9 +142,9 @@
  var registerForm={};
  var g;
 </script>
-<script src="/chouchouhua/Public/static/js/jquery-git2.js"></script>
-<script src="/chouchouhua/Public/static/js/login.js"></script>
-<script src="/chouchouhua/Public/js/egowork/webtoolkit.sha256.js"></script>
+<script src="/chouchou/Public/static/js/jquery-git2.js"></script>
+<script src="/chouchou/Public/static/js/login.js"></script>
+<script src="/chouchou/Public/js/egowork/webtoolkit.sha256.js"></script>
 
            
     </body>
